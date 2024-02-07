@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cn" ng-app="startApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./images/logo.png">
+    <title>文件管理系统</title>
+    <script src="./libs/system.info.js"></script>
+    <style>
+        .fork {
+            width: 160px;
+            line-height: 30px;
+            position: fixed;
+            background-color: red;
+            text-align: center;
+            color: white;
+            outline: 2px dashed red;
+            width: 200px;
+            transform: rotate(-45deg);
+            right: -40px;
+            bottom: 44px;
+        }
+    </style>
+</head>
+
+<body>
+    <div ui-view></div>
+    <script src="./libs/preload.js"></script>
+    <a href="https://github.com/fragement-contrib/FileSystem" target="_blank" class="fork">
+        Fork me on Github
+    </a>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="./htmls/login/mod.css">
+<div ng-init='initMethod()' class='login-view'>
+    <div class="content">
+        <div class="image">
+            <div class="version">
+                {{"系统版本：v"|versionFlt}}
+            </div>
+        </div>
+        <div class="input">
+            <h2>
+                文件管理系统
+            </h2>
+            <input type="text" ng-model="params.username" placeholder="请输入用户名">
+            <input type="password" ng-model="params.password" placeholder="请输入密码">
+            <button ng-click="doLogin()">登录</button>
+        </div>
+    </div>
+</div>

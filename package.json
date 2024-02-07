@@ -1,0 +1,50 @@
+{
+  "name": "file-system",
+  "version": "0.1.0",
+  "description": "文件管理系统",
+  "scripts": {
+    "build": "nest build",
+    "start:dev": "node env.dev.js && nest start --watch",
+    "start:debug": "node env.dev.js && nest start --debug --watch",
+    "start:prod": "node env.dev.js && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fragement-contrib/FileSystem.git"
+  },
+  "keywords": [
+    "FileSystem",
+    "nestjs"
+  ],
+  "author": {
+    "name": "zxl20070701",
+    "url": "https://github.com/zxl20070701"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fragement-contrib/FileSystem/issues"
+  },
+  "homepage": "https://github.com/fragement-contrib/FileSystem",
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/platform-express": "^9.4.3",
+    "@nestjs/serve-static": "^4.0.0",
+    "compressing": "^1.10.0",
+    "devby": "^0.5.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.2.0",
+    "vislite": "^0.7.1"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^9.0.0",
+    "@types/express": "^4.17.13",
+    "@types/multer": "^1.4.7",
+    "@types/node": "18.16.12",
+    "source-map-support": "^0.5.20",
+    "ts-loader": "^9.2.3",
+    "ts-node": "^10.0.0",
+    "tsconfig-paths": "4.2.0",
+    "typescript": "^5.0.0"
+  }
+}
